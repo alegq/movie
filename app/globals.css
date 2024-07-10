@@ -29,6 +29,7 @@ body {
   'Trispace', 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F3F3F1;
 }
 
 @layer utilities {

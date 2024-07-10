@@ -1,0 +1,108 @@
+.containerAboutUs {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  height: 40vw;
+  min-width: 7.81%;
+  overflow: hidden;
+  margin-top: 10.68%;
+  border-top: 0.15vw solid #0753D2;
+  border-bottom: 0.15vw solid #0753D2;
+
+  font-family: Rubik, sans-serif;
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  @media (max-width: 768px) {
+  }
+}
+
+.nameAboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 7.08%; //136px
+  margin-left: 6.61%;
+  height: 100%;
+  border-left: 0.15vw solid #242424;
+  border-right: 0.15vw solid #242424;
+  .title {
+    margin: 66.92% 0 0 -0.35%;
+    font-size: 1.25vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+  }
+  .title::before {
+    content: "•";
+    color: #000000;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .creativity {
+    margin-top: 397.78%;
+    transform: rotate(-90deg);
+    font-size: 1.88vw;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+.ourWay {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 7.08% - 6.61%); //1655
+  .name {
+    position: relative;
+    width: 100%;
+    height: 23.44vw;
+    .ourWayBg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .ourWayText {
+      width: 24.38vw;
+      height: 14.43vw;
+      margin: 1.46vw 0 0 2.92vw;
+    }
+  }
+  .redRect {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 6.09vw;
+    margin-top: 0.73%;
+    background: #D54D49;
+    .grayRect1 {
+      width: 2.71vw;
+      height: 0.31vw;
+      margin: 5% 0 0 30.42%;
+      background: #D9D9D9;
+    }
+    .grayRect2 {
+      width: 2.71vw;
+      height: 0.31vw;
+      margin: 5% 0 0 0.26%;
+      background: #D9D9D9;
+    }
+    .grayRect3 {
+      width: 13.4vw;
+      height: 0.31vw;
+      margin: 5% 0 0 0.26%;
+      background: #D9D9D9;
+    }
+  }
+  .info {
+    width: 100%;
+    color: #000;
+    font-size: clamp(10px, 1.45vw, 60px);
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,151 @@
+.containerSocialMedia {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  min-width: 150px;
+  overflow: hidden;
+  margin-top: 7.9%;
+
+  color: #000;
+  font-family: Rubik, sans-serif;
+  font-size: 1.875vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  @media (max-width: 768px) {
+  }
+}
+
+.text{
+  color: #0753D2;
+  font-size: 1.875vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text::before{
+  content: "•";
+  color: #0753D2;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.contTitle{
+  width: 57.40%;
+  height: 5.3vw;
+  margin-left: 4.6%;
+  border: 0.1vw solid #000;
+  background: #F3F3F1;
+  padding: 1.97% 3.85%;
+  z-index: 1;
+}
+
+.facebook{
+  position: relative;
+  width: 31.20%; //599
+  height: 32vw;
+  margin-top: -0.1%;
+  margin-left: 4.6%;
+  .facebookImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  p{
+    color: #FFF;
+    margin: 5.3% 0 0 13.3%;
+  }
+  p::before{
+    color: #FFF;
+  }
+}
+
+.write{
+  position: relative;
+  width: 26%;
+  height: 14.32vw;
+  margin: -14.32% 0 0 35.7%;
+  .writeImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  p{
+    color: #FFF;
+    margin: 5.3% 0 0 26.3%;
+  }
+  p::before{
+    color: #FFF;
+  }
+}
+
+.instagram{
+  position: absolute;
+  top: 0;
+  left: 61.6%;
+  width: 31.35%;
+  height: 37.4vw;
+  z-index: 1;
+  .instagramImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  p{
+    color: #FFF;
+    margin: 5.3% 0 0 13.3%;
+  }
+  p::before{
+    color: #FFF;
+  }
+}
+
+.textBottom1{
+  width: 31.35%;
+  margin: 3.80% 0 0 20.63%;
+  color: #000;
+  font-size: 1.15vw;
+}
+
+.textBottom2{
+  width: 20.42%;
+  margin: 0.57% 0 0 32.66%;
+  color: #000;
+  font-size: 1.15vw;
+}
+
+.textBottom3{
+  width: 35.75%;
+  margin: -5.39% 0 0 53.65%;
+  color: #D54D49;
+  text-align: right;
+  font-size: 1.77vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.three{
+  position: absolute;
+  width: 6.6%;
+  height: 9.92vw;
+  bottom: 0.40vw;
+  right: 8%;
+  z-index: -1;
+
+}
+
+
+

@@ -1,6 +1,12 @@
 "use client";
 import Header from "@/components/blog1/header";
 import { RefObject, useEffect, useRef, useState } from "react";
+import Info from "@/components/blog1/info";
+import Vacancies from "@/components/blog1/vacancies";
+import AboutUs from "@/components/blog1/aboutUs";
+import Benefits from "@/components/blog1/benefits";
+import Reviews from "@/components/blog1/reviews";
+import SocialMedia from "@/components/blog1/socialMedia";
 
 export default function Home() {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -39,8 +45,13 @@ export default function Home() {
 
   return (
     <div>
-      {/*<Header setSelectedRef={handleSetRef} />*/}
-      movie
+      <Header setSelectedRef={handleSetRef} />
+      <Info />
+      <Vacancies />
+      <AboutUs />
+      <Benefits />
+      <Reviews />
+      <SocialMedia />
     </div>
   );
 }
